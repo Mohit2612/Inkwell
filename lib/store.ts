@@ -6,7 +6,10 @@ import { Resume, ResumeData, emptyResumeData, sampleResumeData } from "./types";
 
 interface ResumeStore {
   resumes: Resume[];
-  createResume: (name: string, withSample?: boolean) => string;
+  createResume: (
+    name: string,
+    optsOrWithSample?: boolean | { withSample?: boolean; initialData?: ResumeData }
+  ) => string;
   createResumeWithData: (name: string, data: ResumeData) => string;
   deleteResume: (id: string) => void;
   duplicateResume: (id: string) => void;
@@ -20,14 +23,24 @@ export const useResumeStore = create<ResumeStore>()(
   persist(
     (set, get) => ({
       resumes: [],
-      createResume: (name, withSample) => {
+      createResume: (name, optsOrWithSample) => {
         const id = crypto.randomUUID();
+        let withSample = false;
+        let initialData: ResumeData | undefined;
+
+        if (typeof optsOrWithSample === "boolean") {
+          withSample = optsOrWithSample;
+        } else if (optsOrWithSample) {
+          withSample = optsOrWithSample.withSample ?? false;
+          initialData = optsOrWithSample.initialData;
+        }
+
         const resume: Resume = {
           id,
           name: name || "Untitled resume",
           createdAt: Date.now(),
           updatedAt: Date.now(),
-          data: withSample ? sampleResumeData() : emptyResumeData(),
+          data: initialData ?? (withSample ? sampleResumeData() : emptyResumeData()),
         };
         set((s) => ({ resumes: [resume, ...s.resumes] }));
         return id;

@@ -7,7 +7,6 @@ export const runtime = "nodejs";
 // ── PDF text extraction using pdfjs-dist (more reliable than pdf-parse) ──
 
 async function extractPdfText(buffer: Buffer): Promise<string> {
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore – pdfjs-dist v6 ships ESM only; legacy build has no .d.ts for .mjs
   const pdfjsLib = await import("pdfjs-dist/legacy/build/pdf.mjs");
   pdfjsLib.GlobalWorkerOptions.workerSrc = "";

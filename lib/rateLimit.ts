@@ -56,6 +56,15 @@ export function rateLimit(
   };
 }
 
+/** Per-user-id rate limiter (delegates to the generic rateLimit with a namespaced key). */
+export function rateLimitUser(
+  userId: string,
+  limit: number,
+  windowMs: number
+): RateLimitResult {
+  return rateLimit(`user:${userId}`, limit, windowMs);
+}
+
 /** Extract the best available client IP from a Next.js request. */
 export function getClientIp(req: Request): string {
   const headers = req instanceof Request ? req.headers : (req as { headers: Headers }).headers;

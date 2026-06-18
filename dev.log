@@ -1,0 +1,182 @@
+
+> resume-builder@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.2s (506 modules)
+ GET / 200 in 190ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1098ms (612 modules)
+ ✓ Compiled in 3.2s (307 modules)
+ ✓ Compiled in 1399ms (612 modules)
+ ✓ Compiled in 414ms (613 modules)
+ ✓ Compiled in 429ms (613 modules)
+ ✓ Compiled in 427ms (613 modules)
+ ✓ Compiled in 395ms (615 modules)
+ ✓ Compiled in 277ms (601 modules)
+ ✓ Compiled in 225ms (601 modules)
+ ✓ Compiled in 212ms (601 modules)
+ ✓ Compiled in 185ms (308 modules)
+ ✓ Compiled in 246ms (308 modules)
+ ✓ Compiled in 160ms (308 modules)
+ ✓ Compiled in 229ms (308 modules)
+ ✓ Compiled in 136ms (308 modules)
+ ✓ Compiled in 136ms (308 modules)
+ ✓ Compiled in 147ms (308 modules)
+ ✓ Compiled in 170ms (308 modules)
+ ✓ Compiled in 191ms (308 modules)
+ ✓ Compiled in 158ms (308 modules)
+ ✓ Compiled in 147ms (308 modules)
+ ✓ Compiled in 218ms (308 modules)
+ ✓ Compiled in 150ms (308 modules)
+ GET /dashboard 200 in 535ms
+ GET /dashboard 200 in 63ms
+ ○ Compiling /cover-letter ...
+ ✓ Compiled /cover-letter in 9.9s (617 modules)
+ ✓ Compiled in 6.6s (634 modules)
+ ✓ Compiled in 1768ms (634 modules)
+ ✓ Compiled in 638ms (315 modules)
+ ✓ Compiled in 2.5s (634 modules)
+ ✓ Compiled in 1754ms (638 modules)
+ ✓ Compiled in 3.1s (638 modules)
+ ✓ Compiled in 203ms (317 modules)
+ ✓ Compiled in 147ms (317 modules)
+ ✓ Compiled in 156ms (317 modules)
+ ✓ Compiled in 201ms (317 modules)
+ ✓ Compiled in 204ms (317 modules)
+ ✓ Compiled in 160ms (317 modules)
+ ✓ Compiled in 206ms (317 modules)
+ ✓ Compiled in 181ms (317 modules)
+ ✓ Compiled in 162ms (317 modules)
+ ✓ Compiled in 157ms (317 modules)
+ GET /cover-letter?id=bd054400-0972-495c-aa4e-09baa643387b 200 in 323ms
+ GET /dashboard 200 in 79ms
+ ✓ Compiled in 1319ms (317 modules)
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 2.1s (444 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (102kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (250kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled in 2.3s (765 modules)
+ ✓ Compiled in 194ms (317 modules)
+ ✓ Compiled in 397ms (765 modules)
+ ✓ Compiled in 183ms (317 modules)
+ ✓ Compiled in 366ms (765 modules)
+ ✓ Compiled in 197ms (317 modules)
+ ✓ Compiled in 172ms (317 modules)
+ ✓ Compiled in 417ms (624 modules)
+ ✓ Compiled in 268ms (624 modules)
+ ✓ Compiled in 2.6s (761 modules)
+ ⚠ Fast Refresh had to perform a full reload when \\resume-builder\\app\\globals.css","ids":[]}, \\resume-builder\\components\\AuthProvider.tsx","ids":["AuthProvider"]}, \\resume-builder\\components\\SyncProvider.tsx","ids":["SyncProvider"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at createClient (./lib/supabase/client.ts:8:78)
+    at AuthProvider (./components/AuthProvider.tsx:27:134)
+digest: "3395425052"
+ GET /dashboard 500 in 326ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 1749ms (765 modules)
+ GET /dashboard 200 in 1436ms
+ ⨯ Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at createClient (./lib/supabase/client.ts:8:78)
+    at AuthProvider (./components/AuthProvider.tsx:27:134)
+digest: "3395425052"
+ ⨯ Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at createClient (./lib/supabase/client.ts:8:78)
+    at AuthProvider (./components/AuthProvider.tsx:27:134)
+digest: "3395425052"
+ GET /dashboard 500 in 40ms
+   Reload env: .env.local
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 5.6s (892 modules)
+ GET /dashboard 200 in 1179ms
+ GET /dashboard 200 in 106ms
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (102kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (250kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ GET /dashboard 200 in 112ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 672ms (768 modules)
+ GET /dashboard/login 404 in 914ms
+ GET /dashboard 200 in 70ms
+ GET / 200 in 114ms
+ ✓ Compiled in 596ms (383 modules)
+ ✓ Compiled in 716ms (765 modules)
+ ✓ Compiled in 1319ms (766 modules)
+ ✓ Compiled in 407ms (381 modules)
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+[@sentry/nextjs] DEPRECATION WARNING: disableLogger is deprecated and will be removed in a future version. Use webpack.treeshake.removeDebugLogging instead.
+[@sentry/nextjs] DEPRECATION WARNING: automaticVercelMonitors is deprecated and will be removed in a future version. Use webpack.automaticVercelMonitors instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · instrumentationHook
+
+ ✓ Starting...
+[@sentry/nextjs] DEPRECATION WARNING: It is recommended renaming your `sentry.client.config.ts` file, or moving its content to `instrumentation-client.ts`. When using Turbopack `sentry.client.config.ts` will no longer work. Read more about the `instrumentation-client.ts` file: https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client
+ ○ Compiling /instrumentation ...
+ ✓ Compiled /instrumentation in 11.7s (1092 modules)
+ ✓ Ready in 20.2s
+   Reload env: .env.local
+ ✓ Compiled in 13.6s (1092 modules)
+ ✓ Compiled in 584ms (691 modules)
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 3.9s (898 modules)
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 20.5s (3126 modules)
+ GET /dashboard 200 in 21734ms
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (127kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (139kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (102kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (250kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled in 1143ms (790 modules)
+ GET /dashboard?_rsc=syt8b 200 in 79ms
+ ✓ Compiled in 1663ms (3126 modules)
+ GET /dashboard?_rsc=syt8b 200 in 265ms
+ ✓ Compiled in 945ms (790 modules)
+ GET /dashboard?_rsc=syt8b 200 in 89ms
+ ✓ Compiled in 573ms (790 modules)
+ GET /dashboard?_rsc=syt8b 200 in 21ms
+ ✓ Compiled in 294ms (790 modules)
+ ✓ Compiled in 239ms (790 modules)
+ GET /dashboard?_rsc=syt8b 200 in 234ms
+ GET /dashboard?_rsc=syt8b 200 in 36ms
+ GET /dashboard 200 in 4584ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7s (3146 modules)
+ GET / 200 in 10339ms
+ GET /dashboard?_rsc=syt8b 200 in 87ms
+ ⚠ Cross origin request detected from espresso-regulate-job.ngrok-free.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 135ms
+ GET /dashboard 200 in 315ms
+ GET / 200 in 148ms
+ ○ Compiling /builder ...
+ ✓ Compiled /builder in 4s (3178 modules)
+ ✓ Compiled in 453ms (806 modules)
+ GET /dashboard?_rsc=syt8b 200 in 743ms
+ GET /builder?id=ccbcfd2c-f799-46b2-90e2-3fe3da71b142&_rsc=1bh9r 200 in 24ms
+ GET /dashboard?_rsc=syt8b 200 in 14ms
+ GET /builder?id=ccbcfd2c-f799-46b2-90e2-3fe3da71b142&_rsc=1bh9r 200 in 29ms
+ GET /dashboard 200 in 2462ms
+ GET / 200 in 188ms
+ GET /dashboard 200 in 213ms
+ GET / 200 in 103ms
+ GET /dashboard 200 in 132ms
+ GET / 200 in 108ms
